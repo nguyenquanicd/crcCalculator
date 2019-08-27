@@ -15,6 +15,10 @@ serialCrcCal
 
 crcInitialValue
 
+3) Parallel CRC calculator
+
+crcParallel
+
 //--------------------------------------------------
 
 // Detail description
