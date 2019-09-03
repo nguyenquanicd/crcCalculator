@@ -15,9 +15,13 @@ serialCrcCal
 
 crcInitialValue
 
-3) Parallel CRC calculator
+3) Parallel CRC calculator with full input
 
 crcParallel
+
+4) Parallel CRC calculator with separating input parts
+
+crcParallelW
 
 //--------------------------------------------------
 
