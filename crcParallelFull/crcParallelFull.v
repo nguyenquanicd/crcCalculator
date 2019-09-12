@@ -58,7 +58,7 @@ module crcParallelFull (
   //--------------------------------------
   generate
     genvar j;
-    for (j = 0; j < (DWIDTH/8); j=j+1) begin
+    for (j = 0; j < (DWIDTH/8); j=j+1) begin: RefIn
       assign refInput[j*8+0] = dataIn[j*8+7];
       assign refInput[j*8+1] = dataIn[j*8+6];
       assign refInput[j*8+2] = dataIn[j*8+5];
@@ -128,7 +128,7 @@ module crcParallelFull (
   //--------------------------------------
   generate
     genvar k;
-    for (k = 0; k < CRC_WIDTH; k=k+1) begin
+    for (k = 0; k < CRC_WIDTH; k=k+1) begin: RefOut
       assign refOutput[k] = crcSeq[CRC_WIDTH-1-k];
     end
   endgenerate
