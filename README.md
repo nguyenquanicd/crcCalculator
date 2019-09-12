@@ -23,6 +23,10 @@ crcParallel
 
 crcParallelW
 
+5) Parallel CRC calculator with full options (Reflected Input, Initial XOR, Reflected Output, Final XOR)
+
+crcParallelFull
+
 //--------------------------------------------------
 
 // Detail description
